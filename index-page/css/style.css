@@ -1,11 +1,11 @@
 /****************************************TYPOGRAPHY ***************************************************/
 body{
-	font-family: 'Open Sans', sans-serif;
+  font-family: "lucida grande", "lucida sans unicode", lucida, helvetica, "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
 	font-size: 14px;
 	color: #999999;
 }
 h1,h2,h3,h4,h5,h6{
-	font-family: 'Montserrat', sans-serif;
+	font-family: "lucida grande", "lucida sans unicode", lucida, helvetica, "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
 	color: #433b88;
 	font-weight: 600;
 	text-transform: uppercase;
@@ -449,6 +449,9 @@ ul.social-list li a:hover, ul.social-list li a:focus{
 .text-white{
 	color: #fff;
 }
+.text-transparent-white{
+	color:#ffffffa1;
+}
 .bg-fit{
 	background-repeat: no-repeat !important;
     background-size: cover !important;
@@ -643,8 +646,7 @@ ul.social-list li a:hover, ul.social-list li a:focus{
 		padding-top:70%;
 	}
 	.banner-button{
-		padding-top:40%;
-		padding-bottom:60%;
+		padding-top:10%;
 	}
 	.navbar{
 	}
