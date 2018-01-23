@@ -58,7 +58,7 @@ p{
 }
 .banner-button{
 	padding-top:10%;
-	padding-bottom:20%;
+	padding-bottom:0%;
 }
 .navbar{
 	background-color: transparent !important;
@@ -218,7 +218,8 @@ header{
 }
 /*******************************************TESTIMONIAL**********************************************/
 .heading-wraper{
-	margin-bottom: 120px;
+  margin-top:30px;
+	margin-bottom: 100px;
 }
 .heading-wraper h3{
 	color: #fff;
@@ -235,7 +236,7 @@ header{
 	box-shadow: 0px 8px 21px 0px rgba(26, 31, 66, 0.29);
 }
 .testimonial-content{
-	padding: 2rem 8rem;
+	padding: 2rem 6rem;
     position: relative;
     top: -45px;
     color: #5a5a5a;
@@ -370,6 +371,10 @@ ul.social-list li a:hover, ul.social-list li a:focus{
 }
 .logo-colored{
 	color: #e8617d;
+}
+.logo-person-size{
+  width:90px;
+  height:90px;
 }
 .footer-left-content{
 	margin-bottom: 50px;
