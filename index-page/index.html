@@ -6,13 +6,15 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta http-equiv="x-ua-compatible" content="ie=edge">
-
+  <title>IPFS Smart Object</title>
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="css/bootstrap.min.css">
   <link rel="stylesheet" href="css/ionicons.min.css">
   <link rel="stylesheet" href="css/owl.carousel.css">
   <link rel="stylesheet" href="css/owl.theme.css">
   <link rel="stylesheet" href="css/style.css">
+  <link rel="icon" href="favicon.ico" />
+  <link href="https://cdn.bootcss.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
 </head>
 
 <body>
@@ -27,7 +29,7 @@
               <span class="icon-bar"></span>
               <span class="icon-bar"></span>
             </button>
-          <a class="navbar-brand" href="#"><span class="logo-wraper logo-white">
+          <a class="navbar-brand" href="./index.html"><span class="logo-wraper logo-white">
                 <img src="images/Logo-white.png" alt=""> <span style="font-size:0.7em">IPFS Smart Object</span>
               </span></a>
         </div>
@@ -35,13 +37,21 @@
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
           <ul class="nav navbar-nav  navbar-right">
-            <li class="active"><a href="#home">首页 <span class="sr-only">(current)</span></a></li>
-            <li><a href="#blog-card">关于</a></li>
-            <li><a href="#introduction">文档</a></li>
-            <li><a href="#feature">博客</a></li>
-            <li><a href="#newsletter">合作</a></li>
-            <li><a href="#newsletter">订阅</a></li>
-            <li><a href="#" class="btn btn-orange border-none btn-rounded-corner btn-navbar">下载<span class="icon-on-button"><i class="ion-ios-cloud-download-outline"></i></span></a></li>
+            <li><a href="#feature"><i class="fa fa-tags nav-icon"></i>关于</a></li>
+            <li><a href="#blog-card"><i class="fa fa-book nav-icon"></i>文档</a></li>
+            <li><a href="#introduction"><i class="fa fa-code-fork nav-icon"></i>API</a></li>
+            <li><a href="https://zhuanlan.zhihu.com/ipfs-smart-object" target="_blank"><i class="fa fa-pencil nav-icon"></i>博客</a></li>
+            <li><a href="#newsletter"><i class="fa fa-rss nav-icon"></i>订阅</a></li>
+            <li><a href="#newsletter"><i class="fa fa-group nav-icon"></i>合作</a></li>
+            <li>
+              <div id="lang-select-wrap">
+                <div id="lang-select-label"><i class="fa fa-globe" style="margin-right:5px;"></i><span>简体中文</span></div>
+                <select id="lang-select" data-canonical="">
+                  <option value="zh-cn" selected>简体中文</option>
+                  <option value="en">English</option>
+                </select>
+              </div>
+            </li>
           </ul>
         </div>
         <!-- /.navbar-collapse -->
@@ -55,9 +65,9 @@
     <div class="text-center banner-text">
       <h2 class="cta-heading text-white">Abstract Your IPFS Metadata</h2>
       <h3 class="cta-heading text-white">Build Your Smart Object</h3>
-      <p class="text-white slider-para"><br />抽象你的IPFS元数据  构建你的智能对象</p>
+      <p class="text-white slider-para"><br />抽象你的IPFS元数据 构建你的智能对象</p>
       <div class="cta-btn-group banner-button">
-        <a class="btn btn-orange border-none btn-rounded-corner" href="#">下载 <span class="icon-on-button"><i class="ion-ios-cloud-download-outline"></i></span></a>
+        <a class="btn btn-orange border-none btn-rounded-corner" href="#">SDK 下载<span class="icon-on-button"><i class="ion-ios-cloud-download-outline"></i></span></a>
         <a class="btn-video text-white" href="#"><span class="icon-rounded bordered-ios"><i class="ion-ios-play-outline"></i></span>Demo演示</a>
       </div>
     </div>
@@ -167,7 +177,10 @@
                   <h5 class="client-name">Jiale Dai</h5>
                   <p><br/>IPFS SmartObject 项目发起人</p>
                   <ul class="social-list">
-                    <li><a href=""><i class="ion-social-linkedin"></i></a></li>
+                    <li><a href=""><i class="fa fa-github"></i></a></li>
+                    <li><a href=""><i class="fa fa-linkedin"></i></a></li>
+                    <li><a href=""><i class="fa fa-wechat"></i></a></li>
+                    <li><a href=""><i class="fa fa-weibo"></i></a></li>
                   </ul>
 
                 </div>
@@ -177,42 +190,26 @@
                 </div>
               </div>
             </div>
+
             <div>
               <div class="testimonial-container">
                 <div class="client-details text-center">
-                  <img src="images/t-1.png" alt="">
-                  <h5 class="client-name">Arix Wonder</h5>
-                  <p class="client-designation">CEO Of LVATO</p>
+                  <img src="https://placehold.it/100x100" alt="">
+                  <h5 class="client-name"></h5>
+                  <p class="client-designation">CEO Of OneMix</p>
                   <ul class="social-list">
-                    <li><a href=""><i class="ion-social-linkedin"></i></a></li>
-                    <li><a href=""><i class="ion-social-pinterest"></i></a></li>
-                    <li><a href=""><i class="ion-social-googleplus"></i></a></li>
+                    <li><a href=""><i class="fa fa-linkedin"></i></a></li>
+                    <li><a href=""><i class="fa fa-weibo"></i></a></li>
                   </ul>
                 </div>
                 <div class="testimonial-content">
                   <p><i class="ion-quote"></i></p>
-                  <p class="testimonial-speech">Built using the latest web technologies like html5, css3, and jQuery, rest assured Sedna will look smashing on every device under the sun.Built using the latest web technologies like html5, css3, and jQuery.</p>
+                  <p class="testimonial-speech"> Some Words About This Project</p>
                 </div>
               </div>
             </div>
-            <div>
-              <div class="testimonial-container">
-                <div class="client-details text-center">
-                  <img src="images/t-1.png" alt="">
-                  <h5 class="client-name">Arix Wonder</h5>
-                  <p class="client-designation">CEO Of LVATO</p>
-                  <ul class="social-list">
-                    <li><a href=""><i class="ion-social-linkedin"></i></a></li>
-                    <li><a href=""><i class="ion-social-pinterest"></i></a></li>
-                    <li><a href=""><i class="ion-social-googleplus"></i></a></li>
-                  </ul>
-                </div>
-                <div class="testimonial-content">
-                  <p><i class="ion-quote"></i></p>
-                  <p class="testimonial-speech">Built using the latest web technologies like html5, css3, and jQuery, rest assured Sedna will look smashing on every device under the sun.Built using the latest web technologies like html5, css3, and jQuery.</p>
-                </div>
-              </div>
-            </div>
+
+
           </div>
         </div>
       </div>
@@ -226,8 +223,8 @@
           <div class="row">
             <div class="col-md-8 col-md-offset-2 padding-top-bottom-90">
               <div class="subscription-wraper text-center">
-                <h4 class="text-upper">邮件订阅</h4>
-                <p>订阅我们的项目，接收我们最新的消息</p>
+                <h4 class="text-upper">有奖订阅</h4>
+                <p>订阅我们的项目，接收我们最新的消息，会对早期关注者发放神秘奖励...</p>
                 <form class="subscription-form">
                   <div class="form-group">
                     <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
@@ -246,13 +243,14 @@
       <div class="row">
         <div class="col-md-3">
           <div class="footer-left-content">
-            <div class="logo-colored">
-              <img src="images/Logo_color.png" alt="">
-            </div>
+
+                <img class="img-team" src="images/onemix-logo.png">
+
             <div class="content">
-              <p class="margin-bottom-30 margin-top-30">Built using the latest web technologies like css3, and jQuery, rest assured Sedna look.</p>
-              <p>+88456895872, +88456595572</p>
-              <p>example@mail.com. lazyfox@mail.com</p>
+
+              <p class="margin-bottom-30 margin-top-30">Copyright © 2018 OneMix Team </p>
+              <p>问题咨询: contact@onemix.io</p>
+              <p>商务合作: bussiness@onemix.io</p>
             </div>
           </div>
         </div>
@@ -260,45 +258,42 @@
           <div class="row">
             <div class="col-md-3 col-sm-6">
               <div class="footer-list-wiget">
-                <h4>learn more</h4>
+                <h4>相关链接</h4>
                 <div class="list-group">
-                  <a href="#" class="list-group-item">About Dolphin</a>
-                  <a href="#" class="list-group-item">Learn CSS</a>
-                  <a href="#" class="list-group-item">Meeting Tools</a>
-                  <a href="#" class="list-group-item">Pricing</a>
+                  <a href="https://ipfs.io" target="_blank" class="list-group-item">ipfs.io</a>
+                  <a href="https://filecoin.io" target="_blank" class="list-group-item">filecoin.io</a>
+                  <a href="https://bluzelle.com/" target="_blank" class="list-group-item">bluzelle.com</a>
+                  <a href="https://www.ethereum.org/"  target="_blank" class="list-group-item">ethereum.org</a>
                 </div>
               </div>
             </div>
             <div class="col-md-3 col-sm-6">
               <div class="footer-list-wiget">
-                <h4>Support</h4>
+                <h4>合作伙伴</h4>
                 <div class="list-group">
-                  <a href="#" class="list-group-item">FAQ</a>
-                  <a href="#" class="list-group-item">Contact US</a>
-                  <a href="#" class="list-group-item">Outlook Plugin</a>
-                  <a href="#" class="list-group-item">Phone Control</a>
+                  <a href="#" class="list-group-item"></a>
+                  <a href="http://ipfser.org" target="_blank" class="list-group-item">ipfser.org</a>
                 </div>
               </div>
             </div>
             <div class="col-md-3 col-sm-6">
               <div class="footer-list-wiget">
-                <h4>About</h4>
+                <h4>关于我们</h4>
                 <div class="list-group">
-                  <a href="#" class="list-group-item">About US</a>
-                  <a href="#" class="list-group-item">Careear</a>
-                  <a href="#" class="list-group-item">Privat policy</a>
-                  <a href="#" class="list-group-item">Treams</a>
+                  <a href="#" class="list-group-item">团队介绍</a>
+                  <a href="#" class="list-group-item">办公环境</a>
+                  <a href="#" class="list-group-item">招贤纳士</a>
+                  <a href="#" class="list-group-item">开发者社区</a>
                 </div>
               </div>
             </div>
             <div class="col-md-3 col-sm-6">
               <div class="footer-list-wiget">
-                <h4>Links</h4>
+                <h4>全站地图</h4>
                 <div class="list-group">
-                  <a href="#" class="list-group-item">Home</a>
-                  <a href="#" class="list-group-item">About</a>
-                  <a href="#" class="list-group-item">Product</a>
-                  <a href="#" class="list-group-item">Intro</a>
+                  <a href="#" class="list-group-item">关于</a>
+                  <a href="#" class="list-group-item">订阅</a>
+                  <a href="#" class="list-group-item">合作</a>
                 </div>
               </div>
             </div>
